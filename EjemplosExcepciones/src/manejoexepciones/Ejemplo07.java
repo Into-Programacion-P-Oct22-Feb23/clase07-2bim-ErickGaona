@@ -25,17 +25,8 @@ public class Ejemplo07 {
             double resultado2 = (double)resultado;
             System.out.printf("Resultado %d", resultado2);
         }
-        catch (InputMismatchException inputMismatchException) {
-            // enviar un correo adminstrador
-            System.out.printf("Existe un error de tipo %s\n", 
-                    inputMismatchException);
-        }
-        catch(ArithmeticException arithmeticException){
-            // enviar un correo programa
-            System.out.println("Lo sentimos hay un error");
-            System.out.printf("De tipo %s\n", arithmeticException);
         
-        }
+        
         catch(Exception e){
             
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);

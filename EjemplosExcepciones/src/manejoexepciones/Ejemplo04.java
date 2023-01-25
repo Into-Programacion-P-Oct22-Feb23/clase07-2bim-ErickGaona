@@ -29,6 +29,9 @@ public class Ejemplo04 {
 
             System.out.printf("Existe un error de tipo %s\n",
                     inputMismatchException);
+        } catch(ArithmeticException a){
+        
+            System.out.println("Existe un error de tipo: "+a);
         }
         
         System.out.println("Continuamos");
